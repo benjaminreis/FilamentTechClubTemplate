@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -39,7 +41,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-  <p class="w3-xlarge">Template by w3.css</p>
+  <p class="w3-xlarge">Template by w33.css</p>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
 </header>
 
@@ -59,6 +61,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
     </div>
   </div>
+</div>
+
+
+<div style="border-radius:25px; border:5px darkblue solid">
+  <div id="helloworld">
+    All your base are belong to us!
+  </div>
+  <button type="button" onClick="changeColor()">Change Colors</button>
+
+  <h1 style="color:mediumblue; text-align:center">
+    Space Rocket ships explosions
+  </h1>
+  <p>
+    <i class="fa fa-rocket" style="font-size:24px;"></i>
+
+  </p>
+  <p>
+    I think rockets are neat and cool.  They fly high up in the air.  They are out of this world.
+  </p>
+  <img style="margin-left: 30px;" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Soyuz_TMA-9_launch.jpg" width="400">
 </div>
 
 <!-- Second Grid -->
@@ -96,7 +118,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
+
+<script src="scripts/script.js"></script>
+
 <script>
+
+
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
@@ -106,6 +133,8 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+
 </script>
 
 </body>
